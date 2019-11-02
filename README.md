@@ -3,6 +3,8 @@ Intro to web development, covering HTML, CSS and JavaScript
 
 The workshop website is at [https://sundaysky.github.io/web-development-workshop](https://sundaysky.github.io/web-development-workshop)
 
+[Workshop Presentation](https://docs.google.com/presentation/d/1l-vrgWRFCK0VnHeo3V0dUb-4ud1uOmymCjDGeBPfeTg)
+
 ## Getting started with Github Pages
 0. If you don't have on already, open a user in [Github](https://github.com).
 1. Create a new repository for the workshop. If you're new to Git or Github, download [Github Desktop](https://desktop.github.com/). Feel free to ask for help or consult [Github Desktop's help](https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop).
