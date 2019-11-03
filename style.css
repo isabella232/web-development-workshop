@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #0dc3db;
+  background: #44BBB6;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
 }
 
 .game {
-  background: #39b18d;
+  background: #00AC9B;
   width: 600px;
   height: 400px;
   display: flex;
