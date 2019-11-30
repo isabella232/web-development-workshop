@@ -6,31 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <h1>Welcome!</h1>
-      <button onclick="startGame()">Start Game</button>
-      <span class="score">0</span>
+    <header id="header">
+      <div id="game-title">My whack a mole</div>
+      <div id="score">0</div>
     </header>
-    <div class="game">
-      <div class="hole hole1">
-        <div class="mole"></div>
-      </div>
-      <div class="hole hole2">
-        <div class="mole"></div>
-      </div>
-      <div class="hole hole3">
-        <div class="mole"></div>
-      </div>
-      <div class="hole hole4">
-        <div class="mole"></div>
-      </div>
-      <div class="hole hole5">
-        <div class="mole"></div>
-      </div>
-      <div class="hole hole6">
-        <div class="mole"></div>
-      </div>
+    <main id="game-board">
+      <div>
+      <span class="hole">
+        hole 1
+      </span>
+      <span class="hole">
+        hole 2
+      </span>
+      <span class="hole">
+        hole 3
+      </span>
     </div>
-    <script type="text/javascript" src="script.js"></script>
+    <div>
+      <span class="hole">
+        hole 4
+      </span>
+      <span class="hole">
+        hole 5
+      </span>
+      <span class="hole">
+        hole 6
+      </span>
+    </div>
+    </main>
   </body>
 </html>
