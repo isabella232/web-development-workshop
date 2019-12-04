@@ -1,0 +1,59 @@
+/* set the page to use border-box */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* clear all paddings and margins and set font */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Amatic SC", cursive;
+  background-color: #44BBB6;
+}
+
+#header {
+  color: white;
+}
+
+#game-title {
+  padding-bottom: 25px;
+}
+
+#score-board {
+}
+
+#score-number {
+  background-color: #654321;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+}
+
+#score-stick {
+  background-color: #654321;
+  margin: 0px 85px 0 85px;
+  width: 30px;
+  height: 100px;
+}
+
+#game-board {
+  background: #00AC9B;
+}
+
+.hole {
+  background-size: contain;
+  background: url(./assets/hole.svg) bottom center no-repeat;
+  width: 100%;
+  height: 150px;
+}
+
+
+
+
+/* background: url("./assets/hole.svg") bottom center no-repeat; */
