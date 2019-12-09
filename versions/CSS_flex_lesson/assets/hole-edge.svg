@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="194px" height="130px" viewBox="0 0 194 130" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hole</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-hole" transform="translate(-839.000000, -439.000000)">
+            <g id="Group-2" transform="translate(-106.000000, 314.000000)">
+                <g id="Group" transform="translate(353.000000, 125.000000)">
+                    <g id="hole" transform="translate(592.000000, 0.000000)">
+                        <g id="Group">
+                            <path d="M97,-5.68434189e-14 C150.571621,-5.68434189e-14 194,29.1014913 194,65 C194,67.7089249 193.752705,70.3791455 193.272419,73.0010776 C187.388822,40.8756856 146.529585,16 97,16 C47.4704146,16 6.61117819,40.8756856 0.727398238,72.9999228 C0.247294658,70.3791455 0,67.7089249 0,65 C0,29.1014913 43.4283793,-5.68434189e-14 97,-5.68434189e-14 Z" id="Combined-Shape" fill="#00807B"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
