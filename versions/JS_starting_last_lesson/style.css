@@ -1,0 +1,105 @@
+:root {
+  --main-bg-color: #44BBB6;
+  --score-signe-color: #be8a1f;
+  --game-board-bg-color: #00AC9B;
+
+}
+
+
+/* set the page to use border-box */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* clear all paddings and margins and set font */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Amatic SC", cursive;
+  background-color: #44BBB6;
+}
+
+#header {
+  padding-top: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  
+}
+
+#score-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#score-number {
+  background-color: #be8a1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+
+  width: 300px;
+  height: 70px;
+}
+
+#score-stick {
+  background-color: #be8a1f;
+  width: 16px;
+  height: 80px;
+}
+
+#game-board {
+  background: #00AC9B;
+}
+
+.game-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hole {
+  /* size of the element */
+  width: 100px;
+  height: 120px;
+
+  /* size of the hole */
+  background: url(./assets/hole.svg) bottom center no-repeat;
+  background-size: 100px;
+  margin: 20px;
+
+  /* magic */
+  overflow: hidden;
+  position: relative;
+}
+
+.mole {
+  background: url("./assets/mole.svg") bottom center no-repeat;
+  background-size: 120px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.4s;
+}
+
+.hole.up .mole {
+  top: 0;
+}
